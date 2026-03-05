@@ -117,9 +117,9 @@ The AI uses a deterministic priority waterfall (no randomness):
 ```
 tic-tac-toe-8051/
 ├── src/
-│   └── tic10.asm            ← Main 8051 assembly source
+│   └── tic10_fixed.asm            ← Main 8051 assembly source
 ├── simulation/
-│   └── tcoe.pdsprj          ← Proteus DSP project file
+│   └── ticai.pdsprj          ← Proteus DSP project file
 ├── hex/
 │   └── tic10_fixed.hex            ← Compiled Intel HEX output
 ├── docs/
