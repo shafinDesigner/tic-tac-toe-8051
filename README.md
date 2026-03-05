@@ -101,7 +101,7 @@ AI opponent with a 5-level priority strategy.
 ```
 
 ---
-
+---
 
 ## 🛠️ Hardware
 
