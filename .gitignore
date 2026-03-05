@@ -1,0 +1,24 @@
+# Mide-51 build output
+*.lst
+*.obj
+*.map
+*.dbg
+
+# Windows system files
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Proteus backup files
+*.bak
+*.~*
+*.pdsbak
+
+# macOS junk
+.DS_Store
+.AppleDouble
+
+# Editor temp files
+*.swp
+*.tmp
+*~
