@@ -134,15 +134,15 @@ tic-tac-toe-8051/
 
 ### Simulate in Proteus
 1. Install **Proteus DSP** (version 8 or above)
-2. Open `simulation/tcoe.pdsprj`
-3. Double-click the AT89C51 chip → load `hex/tic10.hex`
+2. Open `simulation/ticai.pdsprj`
+3. Double-click the AT89C51 chip → load `hex/tic10_fixed.hex`
 4. Click **Play ▶** to start simulation
 5. Use the on-screen keypad (keys 1–9) to play
 6. Press **P3.7** button to toggle between PvP and PvAI
 
 ### Compile from Source
 1. Install **Mide-51** (free 8051 assembly IDE)
-2. Open `src/tic10.asm`
+2. Open `src/tic10_fixed.asm`
 3. Press **F9** to build
 4. The `.hex` file is generated in the same folder
 
