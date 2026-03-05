@@ -121,7 +121,7 @@ tic-tac-toe-8051/
 ├── simulation/
 │   └── tcoe.pdsprj          ← Proteus DSP project file
 ├── hex/
-│   └── tic10.hex            ← Compiled Intel HEX output
+│   └── tic10_fixed.hex            ← Compiled Intel HEX output
 ├── docs/
 │   ├── circuit-diagram.png  ← Proteus schematic screenshot
 │   └── pin-mapping.md       ← Port & pin reference
