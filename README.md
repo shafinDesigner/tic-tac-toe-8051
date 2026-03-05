@@ -1,5 +1,6 @@
 # tic-tac-toe-8051
 Tic-Tac-Toe game on AT89C51 microcontroller using 8051 assembly with LCD display, matrix keypad, and AI opponent
+
 # 🎮 Tic-Tac-Toe — AT89C51 Assembly
 
 ![Language](https://img.shields.io/badge/Language-8051%20Assembly-blue)
@@ -55,6 +56,7 @@ AI opponent with a 5-level priority strategy.
 ```
 
 ### Controls
+
 | Key | Position |
 |---|---|
 | `1` | Top-Left |
@@ -69,6 +71,7 @@ AI opponent with a 5-level priority strategy.
 | `P3.7 Button` | Toggle PvP ↔ PvAI + Reset |
 
 ### Game Rules
+
 - Player **X** always goes first
 - Press **1–9** to place your symbol
 - First to get **3 in a row** wins
@@ -76,6 +79,7 @@ AI opponent with a 5-level priority strategy.
 - Occupied cell press → **INVALID** shown on LCD
 
 ### Game Modes
+
 **PvP — Player vs Player**
 - Two players take turns on the same keypad
 - LCD shows `TURN: X` or `TURN: O`
@@ -85,6 +89,7 @@ AI opponent with a 5-level priority strategy.
 - LCD shows `YOUR TURN` or `AI TURN`
 
 ### LCD Messages
+
 | Message | Meaning |
 |---|---|
 | `TURN: X` | Player X's turn (PvP) |
@@ -97,7 +102,8 @@ AI opponent with a 5-level priority strategy.
 | `AI WON` | AI beat you |
 | `DRAW` | Board full, no winner |
 | `INVALID` | Cell already occupied |
-```
+
+---
 
 ## 🛠️ Hardware
 
@@ -157,8 +163,6 @@ The 8051 has only 8 working registers (R0–R7). All 9 board cells are mapped as
 
 ## 🤖 AI Strategy
 
-The AI uses a deterministic priority waterfall (no randomness):
-
 | Priority | Strategy | Description |
 |---|---|---|
 | 1 | **WIN** | Complete a line (2× O + 1 empty → play there) |
@@ -173,14 +177,14 @@ The AI uses a deterministic priority waterfall (no randomness):
 ```
 tic-tac-toe-8051/
 ├── src/
-│   └── tic10_fixed.asm            ← Main 8051 assembly source
+│   └── tic10_fixed.asm       ← Main 8051 assembly source
 ├── simulation/
 │   └── ticai.pdsprj          ← Proteus DSP project file
 ├── hex/
-│   └── tic10_fixed.hex            ← Compiled Intel HEX output
+│   └── tic10_fixed.hex       ← Compiled Intel HEX output
 ├── docs/
-│   ├── circuit-diagram.png  ← Proteus schematic screenshot
-│   └── pin-mapping.md       ← Port & pin reference
+│   ├── circuit-diagram.png   ← Proteus schematic screenshot
+│   └── pin-mapping.md        ← Port & pin reference
 └── README.md
 ```
 
