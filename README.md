@@ -42,6 +42,66 @@ AI opponent with a 5-level priority strategy.
 - 🤝 **Draw Detection** — Detects board-full with no winner
 
 ---
+---
+
+## 🕹️ How to Play
+
+### Board Layout
+```
+1 | 2 | 3
+---------
+4 | 5 | 6
+---------
+7 | 8 | 9
+```
+
+### Controls
+| Key | Position |
+|---|---|
+| `1` | Top-Left |
+| `2` | Top-Center |
+| `3` | Top-Right |
+| `4` | Mid-Left |
+| `5` | Center ⭐ |
+| `6` | Mid-Right |
+| `7` | Bot-Left |
+| `8` | Bot-Center |
+| `9` | Bot-Right |
+| `P3.7 Button` | Toggle PvP ↔ PvAI + Reset |
+
+### Game Rules
+- Player **X** always goes first
+- Press **1–9** to place your symbol
+- First to get **3 in a row** wins
+- All 9 cells filled with no winner → **DRAW**
+- Occupied cell press → **INVALID** shown on LCD
+
+### Game Modes
+**PvP — Player vs Player**
+- Two players take turns on the same keypad
+- LCD shows `TURN: X` or `TURN: O`
+
+**PvAI — Player vs Computer**
+- You are **X**, AI plays as **O**
+- LCD shows `YOUR TURN` or `AI TURN`
+
+### LCD Messages
+| Message | Meaning |
+|---|---|
+| `TURN: X` | Player X's turn (PvP) |
+| `TURN: O` | Player O's turn (PvP) |
+| `YOUR TURN` | Your turn (PvAI) |
+| `AI TURN` | AI is playing (PvAI) |
+| `X PLAYER WON` | X wins (PvP) |
+| `O PLAYER WON` | O wins (PvP) |
+| `YOU WON` | You beat the AI |
+| `AI WON` | AI beat you |
+| `DRAW` | Board full, no winner |
+| `INVALID` | Cell already occupied |
+```
+
+---
+
 
 ## 🛠️ Hardware
 
