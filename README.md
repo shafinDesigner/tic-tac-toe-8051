@@ -42,7 +42,6 @@ AI opponent with a 5-level priority strategy.
 - 🤝 **Draw Detection** — Detects board-full with no winner
 
 ---
----
 
 ## 🕹️ How to Play
 
@@ -101,7 +100,7 @@ AI opponent with a 5-level priority strategy.
 ```
 
 ---
----
+
 
 ## 🛠️ Hardware
 
