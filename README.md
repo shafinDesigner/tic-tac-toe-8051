@@ -99,9 +99,6 @@ AI opponent with a 5-level priority strategy.
 | `INVALID` | Cell already occupied |
 ```
 
----
-
-
 ## 🛠️ Hardware
 
 | Component | Details |
